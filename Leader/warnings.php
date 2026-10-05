@@ -290,12 +290,9 @@ $result = $stmt->get_result();
 
                             <div class="warning-action">
 
-                                <a
-                                    href="view_task.php?id=<?php echo $task["id"]; ?>"
-                                    class="view-warning-btn"
-                                >
-                                    View Task
-                                </a>
+                               <a href="view_task.php?id=<?php echo $task['id']; ?>" class="view-task-btn">
+    View Task
+</a>
 
                             </div>
 

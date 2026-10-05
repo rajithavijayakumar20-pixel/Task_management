@@ -176,7 +176,6 @@ $result = $stmt->get_result();
                                 <th>Start Date</th>
                                 <th>Due Date</th>
                                 <th>Status</th>
-                                <th>Action</th>
                             </tr>
 
                         </thead>
@@ -269,17 +268,6 @@ $result = $stmt->get_result();
                                     <span class="status <?php echo $statusClass; ?>">
                                         <?php echo $displayStatus; ?>
                                     </span>
-
-                                </td>
-
-                                <td>
-
-                                    <a
-                                        href="view_task.php?id=<?php echo $task["id"]; ?>"
-                                        class="view-btn"
-                                    >
-                                        View
-                                    </a>
 
                                 </td>
 
